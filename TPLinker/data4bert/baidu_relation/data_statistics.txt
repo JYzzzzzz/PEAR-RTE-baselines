@@ -1,0 +1,5 @@
+{
+    "relation_type_num": 48,
+    "entity_type_num": 26,
+    "train_data": 100
+}

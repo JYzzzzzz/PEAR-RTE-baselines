@@ -1,0 +1,91 @@
+wandb_version: 1
+
+shaking_type:
+  desc: null
+  value: cat
+inner_enc_type:
+  desc: null
+  value: lstm
+dist_emb_size:
+  desc: null
+  value: -1
+ent_add_dist:
+  desc: null
+  value: false
+rel_add_dist:
+  desc: null
+  value: false
+match_pattern:
+  desc: null
+  value: only_head_text
+lr:
+  desc: null
+  value: 5.0e-05
+batch_size:
+  desc: null
+  value: 25
+epochs:
+  desc: null
+  value: 50
+seed:
+  desc: null
+  value: 2333
+log_interval:
+  desc: null
+  value: 10
+max_seq_len:
+  desc: null
+  value: 100
+sliding_len:
+  desc: null
+  value: 20
+loss_weight_recover_steps:
+  desc: null
+  value: 6000
+scheduler:
+  desc: null
+  value: CAWR
+T_mult:
+  desc: null
+  value: 1
+rewarm_epoch_num:
+  desc: null
+  value: 2
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.7
+    cli_version: 0.17.0
+    framework: huggingface
+    huggingface_version: 4.28.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1717378077
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 105
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 19
+      - 23
+      4: 3.9.7
+      5: 0.17.0
+      6: 4.28.1
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+note:
+  desc: null
+  value: start from scratch
